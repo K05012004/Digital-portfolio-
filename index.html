@@ -46,7 +46,7 @@
 
         nav ul li {
             display: inline;
-            margin: 020px;
+            margin:0 20px;
         }
 
         nav ul li a {
@@ -56,11 +56,11 @@
 
         .section-content {
             background-color: #fff;
-            padding: 2rem;
-            margin: 1rem;
-            border-radius: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: justify;
+            padding:2rem;
+            margin:1rem;
+            border-radius:20px;
+            box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
+            text-align:justify;
         }
 
         .download-button {
@@ -115,4 +115,77 @@
     <section id="about">
         <div class="section-content">
             <h2>About Me</h2>
-            <p>Hi,I'm Keerthana.D,a BCA student at Dr.MGR.Janaki college of Arts and Science for women.I'm passionate about IT field and eager
+            <p>Hi,I'm Keerthana.D,a BCA student at Dr.MGR.Janaki college of Arts and Science for women.I'm passionate about IT field and eager to apply what I've learned through my course work and projects. I've developed skills in Java, Python,C,C++ and am excited to continue growing and learning. Feel free to explore my work, and don't hesitate to reach out if you'd like to connect or collabrate!</p>﻿
+        </div>﻿
+    </section>﻿
+
+    <section id="education">﻿
+        <div class="section-content">﻿
+            <h2>Education</h2>﻿
+            <p>pursuing BCA degree at Dr.MGR Janaki College for women</p>﻿
+﻿
+﻿
+        </div>﻿
+    </section>﻿
+
+    <section id="skills">﻿
+        <div class="section-content">﻿
+            <h2>Skills</h2>﻿
+            <ul>﻿
+                <li>JAVA-(basic)</li>﻿
+                <li>HTML-(basic)</li>﻿
+                <li>C++-(basic)</li>﻿
+                <li>PYTHON-(basic)</li>﻿
+﻿
+﻿
+            </ul>﻿
+        </div>﻿
+    </section>﻿
+
+    <section id="internship">﻿
+        <div class="section-content">﻿
+            <h2>Internship</h2>﻿
+            <ul>﻿
+                <li><a href="internship.docx"> Cloud computing</a></li>﻿
+                <!-- Add more project links here -->﻿
+            </ul>﻿
+        </div>﻿
+    </section>﻿
+
+    <section id="resume">﻿
+﻿
+        <div class="section-content">﻿
+            <center>﻿
+            <h2>Resume</h2>﻿
+            <a href="resume.pdf" target="_blank" class="download-button">Download CV</a>﻿
+        </center>﻿
+        </div>﻿
+﻿
+    </section>﻿
+
+    <footer>﻿
+        <p>&copy; 2025  KEERTHANA</p>﻿
+    </footer>﻿
+
+    <script>﻿
+        // Smooth scrolling to section when clicking on navigation links﻿
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {﻿
+            anchor.addEventListener('click', function(e) {﻿
+                e.preventDefault();﻿
+
+                const targetId = this.getAttribute('href').substring(1);﻿
+                const targetElement = document.getElementById(targetId);﻿
+
+                if (targetElement) {﻿
+                    window.scrollTo({﻿
+                        top: targetElement.offsetTop,﻿
+                        behavior: 'smooth'﻿
+                    });﻿
+                }﻿
+            });﻿
+        });﻿
+    </script>﻿
+</body>﻿
+</html>
+
+    
